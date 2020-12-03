@@ -1,9 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 h1{
     color: #444;
     font-family: 'Avenir','Arial', 'Helvetica', 'san-serif';
     font-size: 36px;
     font-weight: 500;
     line-height: 1.33;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 0px;
 }
 .container{
     display:flex;
@@ -18,10 +26,14 @@ h1{
     align-items: center;
     height: 336px;
     width: 336px;
+    border: 1px solid #c4c4c4;
+    padding: 14px;
 
 }
 .square{
     height: 100px;
     width: 100px;
     background-color: #eaeaea;
+    margin: 0 1px;
+    padding: 0;
 }
