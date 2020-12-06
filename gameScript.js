@@ -85,3 +85,7 @@ whoseTurn();
 
 //Check script is connected to HTML
 console.log(`connected!`);
+
+module.exports = {
+    checkForWin
+}
