@@ -65,7 +65,6 @@ whoseTurn = () => {
 
 
 const resetGame = () => {
-    //could be window refresh or reset of main functions
     location.reload()
 }
 
