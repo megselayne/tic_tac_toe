@@ -65,7 +65,6 @@ whoseTurn = () => {
 
 
 const resetGame = () => {
-    //could be window refresh or reset of main functions
     location.reload()
 }
 
@@ -85,7 +84,3 @@ whoseTurn();
 
 //Check script is connected to HTML
 console.log(`connected!`);
-
-module.exports = {
-    checkForWin
-}
